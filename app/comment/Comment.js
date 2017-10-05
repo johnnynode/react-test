@@ -2,6 +2,7 @@
 
 import React from "react";
 
+/* props 包含一些父组件传递给它的数据信息 */
 class Comment extends React.Component {
     render() {
         return (
