@@ -9,3 +9,6 @@ class CommentBox extends React.Component {
         );
     }
 }
+
+// 导出 CommnetBox 作为默认的组件
+export {CommentBox as default}
