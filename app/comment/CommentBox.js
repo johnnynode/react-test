@@ -1,12 +1,20 @@
 "use strict";
 
 import React from "react";
+import CommentList from "./CommentList";
+import CommentForm from "./CommentForm";
 
 // 定义一个叫做CommentBox的 eact 组件
 class CommentBox extends React.Component {
     render() {
         return (
-            <div className="ui comments">评论</div>
+            /* return的时候必须使用一个根Dom节点 */
+            <div className="ui comments">
+                <h1 className="ui comments">评论</h1>
+                <div className="ui divider"></div>
+                <CommentList/>
+                <CommentForm/>
+            </div>
         );
     }
 }
