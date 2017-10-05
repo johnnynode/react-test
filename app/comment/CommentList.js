@@ -8,7 +8,7 @@ class CommentList extends React.Component {
         return (
             <div>
                 <h3>评论列表</h3>
-                /* 这里就是props的应用 */
+                {/* 这里就是props的应用 */}
                 <Comment author="Johnny" date="3分钟前">天气不错啊！</Comment>
                 <Comment author="Tony" date="5分钟前">天空很蓝！</Comment>
                 <Comment author="Lucy" date="12分钟前">出去走走！</Comment>
