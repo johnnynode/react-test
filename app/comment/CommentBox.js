@@ -2,10 +2,11 @@
 
 import React from "react";
 
+// 定义一个叫做CommentBox的 eact 组件
 class CommentBox extends React.Component {
     render() {
         return (
-            <div className="ui comments"></div>
+            <div className="ui comments">评论</div>
         );
     }
 }
