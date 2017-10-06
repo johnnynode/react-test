@@ -21,6 +21,7 @@ System.config({
     "jquery": "npm:jquery@3.2.1",
     "react": "npm:react@16.0.0",
     "react-dom": "npm:react-dom@16.0.0",
+    "react-router": "npm:react-router@4.2.0",
     "semantic-ui": "github:Semantic-Org/Semantic-UI@2.2.13",
     "github:Semantic-Org/Semantic-UI@2.2.13": {
       "css": "github:systemjs/plugin-css@0.1.36",
@@ -124,6 +125,13 @@ System.config({
       "setimmediate": "npm:setimmediate@1.0.5",
       "ua-parser-js": "npm:ua-parser-js@0.7.14"
     },
+    "npm:history@4.7.2": {
+      "invariant": "npm:invariant@2.2.2",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "resolve-pathname": "npm:resolve-pathname@2.2.0",
+      "value-equal": "npm:value-equal@0.4.0",
+      "warning": "npm:warning@3.0.0"
+    },
     "npm:https-browserify@0.0.0": {
       "http": "github:jspm/nodelibs-http@1.7.1"
     },
@@ -139,6 +147,10 @@ System.config({
     },
     "npm:inherits@2.0.3": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:invariant@2.2.2": {
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:isomorphic-fetch@2.2.1": {
       "node-fetch": "npm:node-fetch@1.7.3",
@@ -170,6 +182,9 @@ System.config({
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:path-to-regexp@1.7.0": {
+      "isarray": "npm:isarray@0.0.1"
+    },
     "npm:process-nextick-args@1.0.7": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -199,6 +214,16 @@ System.config({
       "prop-types": "npm:prop-types@15.6.0",
       "react": "npm:react@16.0.0",
       "stream": "github:jspm/nodelibs-stream@0.1.0"
+    },
+    "npm:react-router@4.2.0": {
+      "history": "npm:history@4.7.2",
+      "hoist-non-react-statics": "npm:hoist-non-react-statics@2.3.1",
+      "invariant": "npm:invariant@2.2.2",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "path-to-regexp": "npm:path-to-regexp@1.7.0",
+      "prop-types": "npm:prop-types@15.6.0",
+      "react": "npm:react@16.0.0",
+      "warning": "npm:warning@3.0.0"
     },
     "npm:react@16.0.0": {
       "fbjs": "npm:fbjs@0.8.16",
@@ -266,6 +291,10 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:warning@3.0.0": {
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }
 });
