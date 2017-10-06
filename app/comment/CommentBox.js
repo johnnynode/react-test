@@ -29,7 +29,6 @@ class CommentBox extends React.Component {
     }
 
     render() {
-        console.log(this.props);
         return (
             /* return的时候必须使用一个根Dom节点 */
             <div className="ui comments">
