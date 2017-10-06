@@ -5,13 +5,20 @@ import Comment from "./Comment";
 
 class CommentList extends React.Component {
     render() {
+        let commentNodes = this.props.data.map(comment => {
+            return (
+                <Comment author={comment.author} date={comment.date}>
+                    {comment.text}
+                </Comment>
+            )
+        });
         return (
             <div>
                 <h3>评论列表</h3>
                 {/* 这里就是props的应用 */}
-                <Comment author="Johnny" date="3分钟前">天气不错啊！</Comment>
-                <Comment author="Tony" date="5分钟前">天空很蓝！</Comment>
-                <Comment author="Lucy" date="12分钟前">出去走走！</Comment>
+                <div>
+                    {commentNodes}
+                </div>
             </div>
         );
     }
