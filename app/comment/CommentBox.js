@@ -11,6 +11,7 @@ class CommentBox extends React.Component {
         super(props);
         this.state = {data: []};
         this.getComments();
+        setInterval(() => this.getComments(), 5000);
     }
 
     getComments() {
