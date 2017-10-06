@@ -10,7 +10,7 @@ class CommentForm extends React.Component {
         let author = this.refs.author.value,
             text = this.refs.text.value;
         console.log(author, text);
-        this.props.onCommentSubmit({author,text})
+        this.props.onCommentSubmit({author, text, date: "刚刚"})
     }
 
     render() {
