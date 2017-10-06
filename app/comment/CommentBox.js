@@ -28,6 +28,10 @@ class CommentBox extends React.Component {
         });
     }
 
+    handleCommentSubmit(comment) {
+        console.log(comment);
+    }
+
     render() {
         return (
             /* return的时候必须使用一个根Dom节点 */
@@ -35,7 +39,7 @@ class CommentBox extends React.Component {
                 <h1 className="ui comments">评论</h1>
                 <div className="ui divider"></div>
                 <CommentList data={this.state.data}/>
-                <CommentForm/>
+                <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
             </div>
         );
     }

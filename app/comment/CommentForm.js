@@ -7,7 +7,10 @@ class CommentForm extends React.Component {
         event.preventDefault();
         console.log("提交表单");
         // 在组件中使用refs访问页面上的元素
-        console.log(this.refs.author.value, this.refs.text.value);
+        let author = this.refs.author.value,
+            text = this.refs.text.value;
+        console.log(author, text);
+        this.props.onCommentSubmit({author,text})
     }
 
     render() {
