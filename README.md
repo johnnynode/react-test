@@ -19,5 +19,9 @@ About the react test project
 为项目创建一个服务器，并监视一些文件的变化
 - $ `browser-sync start --server --no-notify --files 'index.html, app/**/*.js`
 
+### 关于路由
+- 请切换到：[react-router分支](https://github.com/webfault/react-test/tree/react-router)
+- 使用的是 react-router-dom 组件
+
 ### 常见疑问：
 - 如何让浏览器使用es6的新功能? ：babel, jspm, webpack
