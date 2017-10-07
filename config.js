@@ -21,7 +21,7 @@ System.config({
     "jquery": "npm:jquery@3.2.1",
     "react": "npm:react@16.0.0",
     "react-dom": "npm:react-dom@16.0.0",
-    "react-router": "npm:react-router@4.2.0",
+    "react-router-dom": "npm:react-router-dom@4.2.2",
     "semantic-ui": "github:Semantic-Org/Semantic-UI@2.2.13",
     "github:Semantic-Org/Semantic-UI@2.2.13": {
       "css": "github:systemjs/plugin-css@0.1.36",
@@ -214,6 +214,15 @@ System.config({
       "prop-types": "npm:prop-types@15.6.0",
       "react": "npm:react@16.0.0",
       "stream": "github:jspm/nodelibs-stream@0.1.0"
+    },
+    "npm:react-router-dom@4.2.2": {
+      "history": "npm:history@4.7.2",
+      "invariant": "npm:invariant@2.2.2",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "prop-types": "npm:prop-types@15.6.0",
+      "react": "npm:react@16.0.0",
+      "react-router": "npm:react-router@4.2.0",
+      "warning": "npm:warning@3.0.0"
     },
     "npm:react-router@4.2.0": {
       "history": "npm:history@4.7.2",
