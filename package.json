@@ -26,6 +26,7 @@
       "jquery": "npm:jquery@^3.2.1",
       "react": "npm:react@^16.0.0",
       "react-dom": "npm:react-dom@^16.0.0",
+      "react-router-dom": "npm:react-router-dom@^4.2.2",
       "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.13"
     },
     "devDependencies": {
@@ -33,5 +34,6 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
-  }
+  },
+  "dependencies": {}
 }
